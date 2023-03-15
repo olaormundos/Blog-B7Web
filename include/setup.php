@@ -2,6 +2,7 @@
 function olmb7_theme_styles(){
   //Css
     wp_enqueue_style("bootstrap_css", get_template_directory_uri(). '/assets/css/bootstrap.min.css');
+    wp_enqueue_style("template_scss", get_template_directory_uri(). '/assets/scss/template.scss');
     wp_enqueue_style("estilos_css", get_template_directory_uri(). '/assets/css/estilos.css', array('bootstrap_css'));
 
   //JavaScript

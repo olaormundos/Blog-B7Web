@@ -8,5 +8,22 @@
 </head>
 <body <?php body_class(); ?>>
     <header>
-
-    </header>      
+        <div class="top_head"></div>
+        <div class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-2">
+                        <?php
+                            if(has_custom_logo()){
+                                the_custom_logo();
+                            }
+                        ?>
+                    </div>
+                    <div class="col-sm-10">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+ 
