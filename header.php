@@ -20,7 +20,39 @@
                         ?>
                     </div>
                     <div class="col-sm-10">
-                        
+                        <div class="menuarea">
+                            <nav>
+                                <?php 
+                                    if(has_nav_menu('top')){
+                                        wp_nav_menu(array(
+                                            'theme_location'  => 'top',
+                                            'container'       => false,
+                                            'fallback_cb'     => false,
+                                        ));
+                                    }
+                                ?>
+                            </nav>
+                            <div class="social">
+                                <?php if(get_theme_mod('olmb7_facebook')): ?>
+                                    <a href="<?php echo get_theme_mod('olmb7_facebook') ?>" target="_bl
+                                    ">
+                                        <img src="<?php echo get_template_directory_uri();?>/assets/images/fb_logo.png" alt="">
+                                    </a>
+                                <?php endif; ?>
+                                <?php if(get_theme_mod('olmb7_instagram')): ?>
+                                    <a href="<?php echo get_theme_mod('olmb7_instagram') ?>" target="_bl
+                                    ">
+                                        <img src="<?php echo get_template_directory_uri();?>/assets/images/in_logo.png" alt="">
+                                    </a>
+                                <?php endif; ?>
+                                <?php if(get_theme_mod('olmb7_youtube')): ?>
+                                    <a href="<?php echo get_theme_mod('olmb7_youtube') ?>" target="_bl
+                                    ">
+                                        <img src="<?php echo get_template_directory_uri();?>/assets/images/yt_logo.png" alt="">
+                                    </a>
+                                <?php endif; ?>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
