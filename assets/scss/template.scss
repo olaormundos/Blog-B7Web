@@ -115,3 +115,36 @@ body {
   float: left;
   margin-right: 20px;
 }
+.post_thumb {
+  width: 100%;
+  height: auto;
+}
+article.post {
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+.post_title {
+  font-size: 30px;
+  font-weight: bold;
+}
+.post_title a {
+  color: #2d3a64;
+  text-decoration: none;
+}
+.post_excerpt {
+  font-size: 14px;
+  color: #000000;
+  margin-top: 20px;
+}
+.post_readmore {
+  margin-top: 23px;
+}
+.post_button {
+  padding: 12px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #455482;
+  display: inline-block;
+  border-radius: 8px;
+}
