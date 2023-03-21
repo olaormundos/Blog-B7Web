@@ -19,6 +19,49 @@ body {
   height: 300px;
   width: auto;
 }
+.banner h2 {
+  font-size: 30px;
+  color: #ffffff;
+  margin-top: 40px;
+  line-height: 38px;
+}
+.banner h2 strong {
+  color: #a0afe0;
+}
+.banner .optin {
+  font-size: 16px;
+  color: #ffffff;
+  margin-top: 40px;
+}
+.banner .optin form {
+  margin-top: 15px;
+}
+.banner .optin_email {
+  height: 45px;
+  font-size: 14px;
+  border: 0;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 333px;
+  outline: 0;
+  color: #333333;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-shadow: 2px 2px 8px #333333;
+}
+.banner .optin_btn {
+  height: 45px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #293a65;
+  background-color: #a0afe0;
+  border: 0;
+  border-radius: 10px;
+  padding-left: 23px;
+  padding-right: 23px;
+  margin-left: 10px;
+  box-shadow: 2px 2px 8px #333333;
+}
 .hero-image {
   height: 285px;
   width: auto;
