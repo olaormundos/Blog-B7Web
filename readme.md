@@ -18,19 +18,20 @@ Esse tema foi criado para o blog da B7Web uma escola de tecnologia com os melhor
 <br>
 
 <p align="center">
-  <!--<img alt="tema Blog Minimag" src=".github/preview.png" width="100%">-->
+  <img alt="tema Blog Minimag" src=".github/preview.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- PHP
-- HTML
-- CSS
-- Sass
-- Bootstrap versão 3.3.7
-- Git e Github
+- PHP;
+- HTML;
+- CSS;
+- JavaScript;
+- Sass;
+- Bootstrap versão 3.3.7;
+- Git e Github.
 
 ## 💻 Projeto
 

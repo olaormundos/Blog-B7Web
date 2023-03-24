@@ -39,12 +39,17 @@
   </div>
   <section>
     <div class="container">
-      <?php
-        if(have_posts()): while(have_posts()): the_post();
-            get_template_part('template_parts/post');
-          endwhile;
-        endif;
-      ?>
+      <div class="postscontent">
+        <?php
+          if(have_posts()): while(have_posts()): the_post();
+              get_template_part('template_parts/post');
+            endwhile;
+          endif;
+        ?>
+      </div>
+      <div class="loadmoreButton">
+        Carregar mais
+      </div>
     </div>
   </section>
 <?php get_footer(); ?>

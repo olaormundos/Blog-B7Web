@@ -8,7 +8,7 @@ function olmb7_theme_styles(){
 
   //JavaScript
     wp_enqueue_script("bootstrap_js", get_template_directory_uri(). '/assets/js/bootstrap.min.js', array('jquery'), false, true);
-    wp_enqueue_script("scripts_js", get_template_directory_uri(). 'scripts/assets/js/.js', array('jquery', 'bootstrap_js'), false, true);
+    wp_enqueue_script("scripts_js", get_template_directory_uri(). '/assets/js/scripts.js', array('jquery', 'bootstrap_js'), false, true);
 }
 
 function olmb7_after_setup(){
