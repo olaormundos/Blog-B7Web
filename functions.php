@@ -2,6 +2,7 @@
 //include
 require get_template_directory(). '/include/setup.php';
 require get_template_directory(). '/include/customizer/theme-customizer.php';
+require get_template_directory(). '/include/ajax.php';
 
 //Hookes
 add_action("wp_enqueue_scripts", "olmb7_theme_styles");

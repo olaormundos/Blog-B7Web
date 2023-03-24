@@ -119,7 +119,7 @@ body {
   width: 100%;
   height: auto;
 }
-article.post {
+article.type-post {
   margin-top: 45px;
   margin-bottom: 45px;
 }
@@ -147,4 +147,13 @@ article.post {
   background-color: #455482;
   display: inline-block;
   border-radius: 8px;
+}
+.loadmoreButton {
+  font-size: 16px;
+  color: #2d3a64;
+  font-weight: bold;
+  margin: auto;
+  margin-bottom: 45px;
+  width: 150px;
+  cursor: pointer;
 }

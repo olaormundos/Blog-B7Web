@@ -1,4 +1,4 @@
-<article <?php post_class(); ?>>
+<article <?php post_class('pp'); ?>>
   <div class="row">
     <div class="col-sm-6">
       <a href="<?php the_permalink(); ?>">
