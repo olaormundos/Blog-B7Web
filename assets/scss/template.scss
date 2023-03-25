@@ -16,7 +16,6 @@ body {
 .banner {
   background-image: url("../images/bg.jpg");
   background-position: center;
-  height: 300px;
   width: auto;
 }
 .banner h2 {
@@ -61,6 +60,12 @@ body {
   padding-right: 23px;
   margin-left: 10px;
   box-shadow: 2px 2px 8px #333333;
+}
+.banner-small {
+  padding-bottom: 30px;
+}
+.banner-small h2 {
+  margin-top: 55px;
 }
 .hero-image {
   height: 285px;
@@ -162,4 +167,19 @@ article.type-post {
   background-color: #2d3a64;
   padding: 15px 0;
   color: #ffffff;
+}
+.post_content {
+  margin: 30px 0 50px 0px;
+}
+.post_content img {
+  width: 100%;
+  height: auto;
+  margin: 30px 0px 50px 0px;
+  border-radius: 30px;
+}
+.fotodestaque img {
+  width: 100%;
+  height: auto;
+  margin: 30px 0px 50px 0px;
+  border-radius: 30px;
 }
